@@ -444,12 +444,12 @@
 
 // function one(){
 //   const username ="tashiya"
-//   console.log("hi")
+//   // console.log("hi")
 
 
 //   function two(){
 //     const website ="youtube"
-//     console.log("djkajk"); 
+//     // console.log("djkajk"); 
 // }
 // // console.log(website);
 
@@ -458,27 +458,171 @@
 // }
 
 // one()
-one()
-function one() {
-  const username = "tashiya";
-  console.log("hi");
 
-  function two() {
-    const website = "youtube";
-    console.log("djkajk");
-    return
-    console.log(website);  
-  }
+// //============interesting=========================
 
-two(); 
+// // console.log(addnum(5))
+
+// function addnum(num){
+//    return num+1
+// }
   
-}
-
-
-console.log("hello man");
 
 
 
+// // console.log(addnum())
+// const addtwo = function addnum(num){
+//   return num+1
+// }
+// addnum()
+
+// // arrow function
+
+
+
+// const user = {
+//   username:"tashiya",
+//   price:2000,
+//   welcomeMessage : function(){
+//     // console.log(`${this.username}, welcome to website`)
+//     // console.log(this)
+//   }
+// } 
+// user.welcomeMessage()
+// // user.username = "sammy"
+// // user.welcomeMessage()
+
+// // console.log(this)
+
+
+// // const chai = function(){
+// //   let username = "tashiya"
+// //   console.log(this.username) 
+// // }
+
+// const chai = ()=> {
+//   let username = "tashiya"
+//   console.log(this.username) 
+// }
+// // chai()
+
+
+//explicit return
+
+// const addnum = (num1, num2)=> {
+//   return num1+num2
+// }
+// console.log(addnum(5,6))
+
+// implicit return
+
+// const addnum = (num1, num2)=>  num1+num2
+// console.log(addnum(5,6))
+
+// const addnum = (num1, num2)=>  (num1+num2)
+// console.log(addnum(5,6))
+
+ // giving object
+
+//  const addnum = (num1, num2)=>  ({name:"tashiya"})
+// console.log(addnum(5,6))
+
+
+
+
+// Immediatly Invoked Function Expression (IIFE)
+
+// (function chai (){
+//   //named iife
+//   console.log(`DB CONNECTED`)
+// }()) ;
+
+
+// ((name) => {
+//   // unnamed iife
+//   console.log(` ${name}DB CONNECTED TWO`);
+// })("tashiya"); 
+
+//============== execution content==================================very important
+//  let month= "march"
+// switch (month) {
+//   case "january":
+//     console.log("jan")
+//     break;
+//   case "febuary":
+//     console.log("feb")
+    
+//     break;
+//   case "march":
+//     console.log("marc")
+//     break;
+
+//     console.log("none")
+//     break;
+// }
+//=============================================================truthy and falsy=====================================================
+
+// falsy value = false , 0,-0,BigInt 0n,"",null, undefined,NaN
+// all other value is truthy.
+
+// truthy value = "0" ,"false"," ",[],{},function(){} 
+
+//false == 0  true
+//false=="" true
+//0=="" true
+
+// const usernemail = [];
+// if(usernemail.length === 0){
+//   console.log("array is empty");
+// }
+// const emptyobj ={}
+// if(Object.keys(emptyobj).length===0){
+//   console.log("object is empty");
+// }
+
+// Nulish Coalescing Operator (??) : null undefined
+
+// let value1;
+// // value1 = 5 ?? 10
+// value1 = null ?? 10
+// // value1 = undefined ?? 20
+// console.log(value1)
+
+
+// const iceTeaPrice = 100
+// iceTeaPrice <= 80 ? console.log("less than 80"):console.log("more than 80")
+
+// ======================================loop===================================================
+// for(let index=0;index<=10;index++){
+//     const element = index;
+//     console.log(element)
+// }
+
+// for (let i = 0; i<=10; i++) {
+//     console.log(`outerloop ${i}`)
+//     for (let j = 0; j<=10; j++) {
+//         // console.log(`innerloop ${j}`)
+//         console.log(``)
+    
+        
+//     }
+    
+// }
+
+
+//forof loop
+
+// const arr =[1,2,3,4,5]
+// for (const num of arr) {
+//     console.log(num)
+    
+// }
+
+const arr =[1,2,3,4,5]
+for (const num of arr) {
+    console.log(arr)
+    
+}                               
 
 
 
